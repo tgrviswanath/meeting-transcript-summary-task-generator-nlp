@@ -1,0 +1,35 @@
+Q3 2024 Product Roadmap Planning Meeting
+Date: 15 January 2024
+Attendees: Sarah (PM), James (Engineering Lead), Maria (Design), Tom (QA), Lisa (Marketing)
+
+Sarah: Good morning everyone. Let's get started with the Q3 roadmap review. James, can you give us an update on the current sprint?
+
+James: Sure. We're on track with the authentication module. The OAuth integration should be done by end of this week. However, we've hit a blocker with the payment gateway — the third-party API has changed their authentication flow and we need about 3 extra days to update our integration.
+
+Sarah: Okay, that's important. Tom, can you adjust the QA schedule to accommodate that delay?
+
+Tom: Yes, I can push the payment testing to the following Monday. But I'll need the updated API documentation from James by Wednesday at the latest.
+
+James: I'll send that over by Tuesday. Also, I wanted to flag that we need to hire two more backend engineers. The current team is stretched thin and we're at risk of missing the Q3 deadline if we don't add capacity.
+
+Sarah: Agreed. I'll escalate that to HR today. Maria, how are the new UI designs coming along?
+
+Maria: The mockups for the dashboard redesign are 80% complete. I need feedback from the team on the navigation structure by Friday. I'll share the Figma link in Slack after this meeting.
+
+Lisa: From a marketing perspective, we need the new features locked down by March 15th so we can prepare the launch campaign. Can we commit to that date?
+
+Sarah: James, is March 15th realistic given the payment gateway delay?
+
+James: It's tight but doable if we get the additional engineers onboarded quickly. I'd say 70% confident.
+
+Sarah: Let's plan for March 15th but have a contingency of March 22nd. Lisa, please prepare materials for both dates.
+
+Lisa: Will do. I'll also need product screenshots for the blog post. Can someone from design provide those by March 1st?
+
+Maria: I'll have them ready by February 28th.
+
+Sarah: Perfect. Let me summarise the action items before we close. Any other business?
+
+Tom: Just a reminder that the security audit is scheduled for February 5th. All teams need to have their documentation updated by February 1st.
+
+Sarah: Good point. Everyone please make sure your documentation is current. Okay, let's wrap up. Thanks everyone.

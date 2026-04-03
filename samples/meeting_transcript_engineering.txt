@@ -1,0 +1,37 @@
+Q3 2024 Engineering Sprint Review
+Date: 22 January 2024
+Attendees: David (CTO), Emma (Backend Lead), Raj (Frontend Lead), Priya (DevOps), Alex (QA)
+
+David: Let's kick off the sprint review. Emma, start with backend.
+
+Emma: Backend API is 90% complete. The user authentication endpoints are done and tested. The remaining 10% is the notification service — I need Priya to provision the message queue by Thursday.
+
+Priya: I can have the RabbitMQ instance ready by Wednesday. I'll send Emma the connection details.
+
+David: Good. Raj, frontend status?
+
+Raj: The dashboard is complete. The settings page still needs the profile photo upload feature. I'll need the S3 bucket policy from Priya to finish that.
+
+Priya: I'll update the bucket policy today and share it with Raj by end of day.
+
+Alex: QA has completed regression testing on the dashboard. Found 3 medium bugs and 1 critical — the logout button doesn't clear the session token properly. Emma needs to fix that before we can sign off.
+
+Emma: I'll fix the session bug today. Should be done by 2pm.
+
+David: Good. Alex, can you retest by end of day tomorrow?
+
+Alex: Yes, I'll have the sign-off report ready by 5pm Thursday.
+
+David: Priya, what's the deployment timeline?
+
+Priya: If we get sign-off Thursday, I can deploy to staging Friday morning and production Monday.
+
+David: Perfect. Let's lock that in. Any blockers?
+
+Raj: I need the final copy from the content team for the onboarding screens. Can someone chase them?
+
+David: I'll email them now and CC everyone. They need to deliver by Wednesday noon.
+
+Emma: Also, we should schedule a post-deployment monitoring session for Monday afternoon.
+
+David: Agreed. Let's block 3-5pm Monday for that. Everyone please update your Jira tickets before EOD today.
